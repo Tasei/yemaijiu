@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+.personal-center{}
+.pannl-left { float: left; width: 150px;}
+.pannl-left h3{background: url(../images/leftnavheadbg.gif) no-repeat; width:142px; height:32px; overflow:hidden; line-height:32px; font-size:14px; color:#FFF; padding-left:8px; font-family:'微软雅黑';}
+.pannl-left ul{border:1px solid #DFDFDF; border-top:none; padding-bottom:0px;}
+.pannl-left ul .left_menu_title{border-top:1px solid #DFDFDF; border-bottom:1px solid #DFDFDF; height:30px; overflow:hidden; padding-left:8px; line-height:30px; font-size:12px; font-weight:bold; color:#333; background:#F7F7F7; margin:5px 0;}
+.pannl-left ul .clear_mt{margin-top:0;}
+.pannl-left ul .clear_border_top{border-top:none;}
+.pannl-left ul li{line-height:26px; padding-left:15px;}
+.pannl-left ul li a span{margin-right:7px; color:#999999;}
+.pannl-left ul li a{color:#333333;}
+.pannl-left ul li a:hover{color:#CC0000; text-decoration:none;}
+.pannl-left ul li a:hover span{color:#CC0000;}
+.pannl-left ul .on{background:#CC0000;}
+.pannl-left ul .on span,.pannl-left ul .on a span,.pannl-left ul .on a:hover span{margin-right:7px; color:#FFF;}
+.pannl-left ul .on,.pannl-left ul .on a,.pannl-left ul .on a:hover{color:#FFF;}
+.pannl-left ul .on a,.pannl-left ul .on a:hover{ text-decoration:none;}
+
+.panl-main { float: right; padding-bottom: 40px; width: 1036px;}
+.main_title {  border-top: 3px solid #e3383a;}
+.main_title h2 {background:#fff; border: 1px solid #dbdbdb; font-size: 14px; height: 29px; line-height: 28px;padding: 0 8px;}
+.depot_info{float: right;  font-size: 12px; font-weight: normal;}
+.depot_info em { font-style: normal; margin-left: 5px;margin-right: 10px;}
+.depot_alt {  height: 18px; line-height: 18px; padding: 10px 0;}
+.depot_alt a {  color: #0066cc;  float: right;}
+.panl-mainNav{background: url(../images/list_tab_bg.jpg) repeat-x; height:26px; margin-top:15px;}
+.panl-mainNav ul{padding-left:10px;}
+.panl-mainNav .clear_pd{padding:0;}
+.panl-mainNav ul li{padding:0 15px; float:left; line-height:22px; color:#333333; cursor:pointer;}
+.panl-mainNav ul li.on{cursor:default;}
+.panl-mainNav ul .link{float:right;}
+.panl-mainNav ul .link a{color:#0066CC;}
+.panl-mainNav ul .link span{margin:0 5px; color:#666666;}
+.panl-mainNav ul .clear_pd{padding:0;}
+.panl-mainNav ul .clear_pd span{color:#DFDFDF;}
+.panl-mainNav ul .on{border:2px solid #e3383a; border-bottom:2px solid #fff; height:22px; background:#FFF; overflow:hidden; color:#CC0000;}
+.date_search_panl{padding-top:10px; color:#666666;}
+.date_search_panl .form_left{float:left; width:auto; line-height:24px;}
+.date_search_panl .form_right{float:right; width:auto; line-height:24px;}
+.date_search_panl .form_right select{margin-right:5px; padding-right:0;}
+.depot_search .txt-datepicker{background: url(../images/icon2.png) no-repeat 85px -18px; padding-right:22px; width:80px;}
+
+.order-listMod{ margin:10px 0;}
+.order-number{ margin:18px 0;}
+.order-listMod .order-checkBox{ margin:4px 6px 0 0; position:relative;}
+.order-title span{ display:inline-block; margin:0 16px 0 2px;}
+.order-title span b{ font-weight:normal;}
+.order-table{ margin:6px 0;}
+.order-table table{ width:100%;}
+.order-table table tr{ border:#ccc solid 1px;}
+.order-table table th{ padding:6px 8px; background:#f9f9f9; font-weight:normal;}
+.order-table table td{ padding:6px 8px;}
+.list-page span, .list-page a { display:inline-block; line-height:22px; border:solid 1px #eeeeee; padding:0 10px; text-align:center; color:#666; }
+.list-page span { border:none; line-height:24px; }
+.list-page span.on { color:#bd0021; font-weight:bold; }
+.list-page a.next, .list-page a.prev { background:url(../images/icon2.png) no-repeat #fff; }
+.list-page a.next { background-position:right -199px; padding-right:15px; }
+.list-page a.prev { background-position:left -219px; padding-left:15px; }
+.depot_bottm_alt {height: 32px;display: inline-block;line-height: 32px;}
+.set-nodisturb .disturb{ border-bottom:#ccc solid 1px; padding: 10px;}
+.set-nodisturb .disturb h3{ font-size:14px; color:#000; padding:10px 0 10px 0;}
+.set-nodisturb .disturb p{ line-height:1.5em;}
+.set-nodisturb .disturb_input{ padding:20px 10px;}
+.disturb_input .disturb-text{ border:#dadada solid 1px; width:200px; height:24px; padding:0 4px; line-height:24px;}

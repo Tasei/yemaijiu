@@ -1,0 +1,633 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>设置勿扰</title>
+<link rel="stylesheet" type="text/css" href="common/css/head.css">
+<link rel="stylesheet" type="text/css" href="common/css/indexShow.css">
+<link rel="stylesheet" type="text/css" href="common/css/main.css">
+<link rel="stylesheet" type="text/css" href="common/css/public.css">
+<link rel="stylesheet" type="text/css" href="common/css/personalCenter.css">
+<!--[if lt IE 9]>
+<script src="common/js/html5.js"></script>
+<![endif]-->
+<script src="common/js/jquery-1.8.2.min.js"></script>
+<script src="common/js/indexView.js"></script>
+
+<!--[if IE 6]>
+<script src="common/js/DDPngMin.js"></script>
+<script>DD_belatedPNG.fix('.sprite-icon li a,.single-icon li img, * , .picbg-icon li a');</script>
+<![endif]-->
+</head>
+
+<body>
+<div class="header"> 
+  <!--顶部导航-->
+  <div class="head-bar">
+    <div class="site-bar">
+      <ul class="userinfos">
+        <li class="hidden" style="display: list-item;"><em class="member-count">7136020</em> 位会员的选择</li>
+        <li class="bold"><a class="txt-login" href="#">登录</a></li>
+        <li class="bldr"><a  class="txt-register" href="#">注册</a></li>
+      </ul>
+      <ul class="sitelinks">
+        <li class="dropdown myaccount bldr"> <a class="txt-down" href="#">我的账户</a>
+          <ul>
+            <li><a  href="#">我的订单<em></em></a></li>
+            <li><a href="#">我的存酒库<em></em></a></li>
+            <li><a href="#">我的优惠券<em></em></a></li>
+            <li><a  href="#">我的收藏夹<em></em></a></li>
+          </ul>
+          <b class="arrow-top"></b> </li>
+        <li class="bldr dropdown app-download"> <a class="txt-mobile" target="_blank" href="#">手机版</a>
+          <ul class="">
+            <li class="app-top">客户端首次下单，送<span class="red">6元礼品卡</span></li>
+            <li class="app-center">
+              <dl>
+                <dt> <img src="http://img10.yesmyimg.com/newWeb/images/red-code.png" alt="手机app二维码"> </dt>
+                <dd>
+                  <h2>下载也买酒客户端</h2>
+                  <a  class="mb10" href="#"><img src="http://img10.yesmyimg.com/newWeb/images/ios.png" ></a> <a href="#"><img src="http://img10.yesmyimg.com/newWeb/images/android.png" alt="也买酒安卓版app"></a> </dd>
+              </dl>
+            </li>
+            <li class="app-bottom"> <a  href="#">了解更多客户端独家优惠！</a> </li>
+          </ul>
+          <b class="arrow-top"></b> </li>
+        <li class="bldr"><a href="#" target="_blank">香港站</a></li>
+        <li class="bldr"><a target="_blank" href="#">红酒交易中心</a></li>
+        <li class="bldr dropdown myservice"> <a class="txt-down" href="#">也买服务</a>
+          <p> <a  target="_blank" href="#">品酒会</a> | <a  target="_blank" href="#">葡萄酒培训</a><br>
+            <a target="_blank" href="#">存酒库</a> | <a target="_blank" href="#">葡萄酒视频</a><br>
+            <a   target="_blank" href="#">礼品卡</a> | <a g href="#">积分商城</a><br>
+            <a group2="1444" target="_blank" href="#">《葡萄酒爱好者》</a> </p>
+          <b class="arrow-top"></b> </li>
+        <li class="bldr"><span class="txt-phone">4008208060</span></li>
+      </ul>
+    </div>
+  </div>
+  <!--顶部导航结束-->
+  
+  <div class="head-main">
+    <div  class="head-logo"> <a class="logo-site" href="#">也买酒</a> </div>
+     <div class=" head-Tese head-Tese2"> <img src="common/images/guangGao2.jpg"> </div>
+     <div class="head-right">
+      
+      <div  class="head-shopcart head-shopcart2 "> <a  class="btn-shopcart" href="#"> <b>购物车 0</b> </a> <span class="txt-cartcount" style="display:  ;">2</span>
+        <div class="shopcart-list" style="">
+          <ul>
+           
+            <li> 
+            	<a class="prod-info" target="_blank" href="#" mdts="true"> 
+                <img width="60" height="98" src="common/images/qgProImg.jpg">
+                <span class="name"> 奔富酒园Bin389加本力设拉子红葡萄酒（名
+              庄）</span> 
+              <span class="nameEn"> Penfolds Bin 389 Cabernet Shiraz </span> 
+              <span class="price"> <strong>¥ 499.0</strong> × <em>1</em> </span>
+               </a> 
+               <a  class="btn-remove" href="#">删除</a> 
+              </li>
+          </ul>
+          <div class="shopcart-sum"> <a class="btn-viewcart" href="#" > 查看购物车 </a>
+            <p>共<em>2</em>件商品<br>
+              总计： ¥ <strong>1589.0</strong> </p>
+          </div>
+        </div>
+        
+      </div>
+      <div class="js-btn">
+      		<a class="gwc-jsBtn" href="#">去结算</a>
+      	 </div>
+    </div>
+  </div>
+    
+   
+  <div class="head-nav">
+    <div class="site-nav site-nav2">
+      <ul style="overflow:hidden" class="navlinks">
+        <li ><a href="#">首 页</a></li>
+        <li  ><a href="#">食品</a></li>
+        <li ><a href="#">保健品 </a></li>
+        <li> <a href="#">个人护理</a> </li>
+        <li ><a  href="#">饮料/酒类</a></li>
+        <li  ><a  href="#">维尊一品</a></li>
+        <li ><a href="#">高分低价</a></li>
+        <li id="jiujiao" ><a href="#">国家月</a></li>
+        <li class="head-search2-list">
+         	<div class="head-search head-search2">
+       
+          <input type="text" class="txt-keyword" value="输入您要查找的商品名称" >
+          <input type="submit" class="btn-search" value="搜索">
+       
+      		</div>
+      </li>
+        
+       
+      </ul>
+      <div class="categorys categorys2">
+        <h3><a   target="_blank" href="#">选酒中心</a><b class="arrow"></b></h3>
+        <div class="categroup" style="display:none;">
+          <dl class="first">
+            <dt>
+              <h4><a  target="_blank" class="topcate" href="#">葡萄酒</a></h4>
+              <p> <a    target="_blank" href="#">法国</a> <a   target="_blank" href="#">西班牙</a> <a   target="_blank" href="#">意大利</a> <a    target="_blank" href="#">智利</a> <a   target="_blank" href="#">干红</a> <a   target="_blank" href="#">桃红</a> <a   target="_blank" href="#">甜白</a> <a    target="_blank" href="#">起泡</a> </p>
+            </dt>
+            <dd  class="h400">
+              <ul class="subcates">
+                <li>
+                  <h5><a  target="_blank" href="#">红葡萄酒</a></h5>
+                  <p class="lh22"> <a  target="_blank" href="#">干红</a> <a  target="_blank" href="#">半干红</a> <a  target="_blank" href="#">半甜红</a> <a  target="_blank" href="#">甜红</a> </p>
+                </li>
+                <li>
+                  <h5><a  target="_blank" href="#">白葡萄酒</a></h5>
+                  <p class="lh22 h44"> <a  target="_blank" href="#">干白</a> <a  target="_blank" href="#">半干白</a> <a  target="_blank" href="#">半甜白</a> <a  target="_blank" href="#">甜白</a> <a  target="_blank" href="#">贵腐酒</a> </p>
+                </li>
+                <li>
+                  <h5><a  target="_blank" href="#">桃红葡萄酒</a></h5>
+                  <p class="lh22 col2"> <a  target="_blank" href="#">干型桃红</a> <a  target="_blank" href="#">半干型桃红</a> <a  target="_blank" href="#">半甜桃红</a> <a  target="_blank" href="#">甜型桃红</a> </p>
+                </li>
+                <li>
+                  <h5><a  target="_blank" href="#">起泡酒</a></h5>
+                  <p class="lh22 col2"> <a  target="_blank" href="#">干起泡酒</a> <a  target="_blank" href="#">半干起泡酒</a> <br>
+                    <a  target="_blank" href="#">甜起泡酒</a> <a  target="_blank" href="#">绝干型起泡酒</a> <br>
+                    <a  target="_blank" href="#">半甜型起泡酒</a> </p>
+                </li>
+                <li>
+                  <h5><a  target="_blank" href="#">香槟</a></h5>
+                  <p class="lh22 col2"> <a  target="_blank" href="#">干香槟</a> <a  target="_blank" href="#">半干香槟</a> <br>
+                    <a  target="_blank" href="#">绝干香槟</a> </p>
+                </li>
+                <li>
+                  <h5><a  target="_blank" href="#">加强葡萄酒</a></h5>
+                  <p class="lh22 col2"> <a  target="_blank" href="#">半干型雪莉酒</a> <a  target="_blank" href="#">干型雪莉酒</a> <br>
+                    <a  target="_blank" href="#">甜型雪莉酒</a> <a  target="_blank" href="#">波特酒</a> <a  target="_blank" href="#">加强甜白</a> <br>
+                    <a  target="_blank" href="#">加强甜型酒</a> </p>
+                </li>
+              </ul>
+              <ul class="relcates">
+                <li>
+                  <h5>热门产地</h5>
+                  <p class="lh22"> <a  target="_blank" href="#">法国</a> <a  target="_blank" href="#">意大利</a> <a  target="_blank" href="#">澳大利亚</a> <br>
+                    <a  target="_blank" href="#">德国</a> <a  target="_blank" href="#">美国</a> <a  target="_blank" href="#">西班牙</a> <br>
+                    <a  target="_blank" href="#">新西兰</a> <a  target="_blank" href="#">阿根廷</a> <a  target="_blank" href="#">匈牙利</a> <br>
+                    <a  target="_blank" href="#">智利</a> <a  target="_blank" href="#">葡萄牙</a> <a  target="_blank" href="#">加拿大</a> <br>
+                    <a  target="_blank" href="#">希腊</a> <a  target="_blank" href="#">南非</a> <a  target="_blank" href="#">中国</a> </p>
+                </li>
+                <li>
+                  <h5>独家品牌</h5>
+                  <p class="col2 lh20 h120"> <a  target="_blank" href="#">季风酒庄</a> <a  target="_blank" href="#">斯皮尔酒庄</a> <br>
+                    <a  target="_blank" href="#">圣勒庄园</a> <a  target="_blank" href="#">贝马格雷</a> <br>
+                    <a  target="_blank" href="#">黄金天使</a> <a  target="_blank" href="#">教堂山酒庄</a> <br>
+                    <a  target="_blank" href="#">维纳酒庄</a> <a  target="_blank" href="#">贝尔莱酒庄</a> <br>
+                    <a  target="_blank" href="#">帕索斯蒂芬</a> <a  target="_blank" href="#">贝托纳酒庄</a> <br>
+                    <a  target="_blank" href="#">夏迪酒庄</a> <a  target="_blank" href="#">维斯塔酒庄</a> <br>
+                  </p>
+                </li>
+                <li>
+                  <h5>列级名庄</h5>
+                  <p class="col2 lh22"> <a  target="_blank" href="#">梅多克1855</a> <a  target="_blank" href="#">圣艾米隆列庄</a> <br>
+                    <a  target="_blank" href="#">波美侯列庄</a> <a  target="_blank" href="#">格拉芙列庄</a> <br>
+                    <a  target="_blank" href="#">苏黛列庄</a> <a  target="_blank" href="#">巴萨克列庄</a> <br>
+                    <a  target="_blank" href="#">拉菲酒庄</a> <a  target="_blank" href="#">宝嘉龙酒庄</a> <br>
+                    <a  target="_blank" href="#">宝得根酒庄</a> <a  target="_blank" href="#">爱士图尔庄园</a> <br>
+                    <a  target="_blank" href="#">木桐酒庄</a> <a  target="_blank" href="#">美国优质酒庄</a> <br>
+                  </p>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+          <dl>
+            <dt>
+              <h4 style="background-image:none;"><a class="topcate" href=" http://list.yesmywine.com/z2-d84/">一键选酒</a> <span class="hot_menu" style="margin-left:10px"> </span> </h4>
+              <p> <a   class="bg"  target="_blank" href=" #">39高性价比</a> <a   target="_blank" href="#">50-90干红精选</a> <br>
+                <a   target="_blank" href="#">100+中端宴请</a> <a class="bg"  target="_blank" href="#">聚会婚庆整箱</a> <br>
+                <a   target="_blank" href="#">勃艮第</a> <a  class="bg"  target="_blank" href=" #">波尔多名庄</a> <a  class="bg"  target="_blank" href="#">团购</a> </p>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <h4><a   target="_blank" class="topcate" href="#">洋酒烈酒</a></h4>
+              <p> <a   target="_blank" href="#">轩尼诗</a> <a  target="_blank" href="#">威士忌</a> <a  target="_blank" href="#">鸡尾酒</a> <a  target="_blank" href="#">百利甜</a> </p>
+            </dt>
+            <dd   class="h320">
+              <ul class="subcates">
+                <li>
+                  <h5>种类</h5>
+                  <p class="lh22"> <a  target="_blank" href="#">威士忌</a> <a  target="_blank" href="#">伏特加</a> <a  target="_blank" href="#">白兰地</a> <br>
+                    <a  target="_blank" href="#">力娇酒</a> <a  target="_blank" href="#">干邑</a> <a  target="_blank" href="#">雅文邑</a> <br>
+                    <a  target="_blank" href="#">纯麦芽威士忌</a> <a  target="_blank" href="#">金酒</a> <br>
+                    <a  target="_blank" href="#">朗姆酒</a> <a  target="_blank" href="#">墨西哥烈酒</a> <br>
+                    <a  target="_blank" href="#">开胃酒</a> <a  target="_blank" href="#">清酒</a> <a  target="_blank" href="#">烧酒</a> </p>
+                </li>
+                <li>
+                  <h5>产地</h5>
+                  <p class="lh22"><a  target="_blank" href="#">法国</a> <a  target="_blank" href="#">意大利</a> <a  target="_blank" href="#">西班牙</a> <br>
+                    <a  target="_blank" href="#">德国</a> <a  target="_blank" href="#">美国</a> <a  target="_blank" href="#">南非</a> <br>
+                    <a  target="_blank" href="#">阿根廷</a> <a  target="_blank" href="#">葡萄牙</a> <a  target="_blank" href="#">英国</a> <br>
+                    <a  target="_blank" href="#">印度</a> <a  target="_blank" href="#">瑞典</a> <a  target="_blank" href="#">乌克兰</a> <br>
+                    <a  target="_blank" href="#">墨西哥</a> <a  target="_blank" href="#">俄罗斯</a> <a  target="_blank" href="#">爱尔兰</a> <br>
+                    <a  target="_blank" href="#">牙买加</a> </p>
+                </li>
+              </ul>
+              <ul class="relcates">
+                <li>
+                  <h5>品牌</h5>
+                  <p class="lh22"><a  target="_blank" href="#">人头马</a> <a  target="_blank" href="#">轩尼诗</a> <a  target="_blank" href="#">摩根船长</a> <br>
+                    <a  target="_blank" href="#">芝华士</a> <a  target="_blank" href="#">百龄坛</a> <a  target="_blank" href="#">百利</a> <br>
+                    <a  target="_blank" href="#">金巴利</a> <a  target="_blank" href="#">百加得</a> <a  target="_blank" href="#">占边</a> <br>
+                    <a  target="_blank" href="#">斯米诺</a> <a  target="_blank" href="#">万事好</a> <a  target="_blank" href="#">杰克丹尼</a> <br>
+                    <a  target="_blank" href="#">奥美加</a> <a  target="_blank" href="#">必富达</a> <a  target="_blank" href="#">百富</a> <br>
+                    <a  target="_blank" href="#">帝萨诺</a> <a  target="_blank" href="#">尊美醇</a> <a  target="_blank" href="#">甘露</a> <br>
+                    <a  target="_blank" href="#">杰彼斯</a> <a  target="_blank" href="#">柑曼怡</a> <a  target="_blank" href="#">蜂巢</a> <br>
+                    <a  target="_blank" href="#">爱德华</a> <a  target="_blank" href="#">皇家</a> <a  target="_blank" href="#">奥特西诺</a> <br>
+                    <a  target="_blank" href="#">哥顿</a> <a  target="_blank" href="#">富豪</a> <a  target="_blank" href="#">灰雁</a> <br>
+                    <a  target="_blank" href="#">红牌</a> <a  target="_blank" href="#">格朗</a> <a  target="_blank" href="#">君度</a> <br>
+                    <a  target="_blank" href="#">苏本</a> <a  target="_blank" href="#">马爹利</a> <a  target="_blank" href="#">尊尼获加</a> <br>
+                    <a  target="_blank" href="#">绝对</a> <a  target="_blank" href="#">博泰勒斯</a> <a  target="_blank" href="#">格兰威特</a> <br>
+                    <a  target="_blank" href="#">帝王</a> <a  target="_blank" href="#">高原骑士</a> <a  target="_blank" href="#">伯爵斯云利</a> <br>
+                    <a  target="_blank" href="#">托马斯</a> <a  target="_blank" href="#">马天尼</a> <a  target="_blank" href="#">拿破仑</a> </p>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+          <dl>
+            <dt>
+              <h4> <a  href="#" class="topcate" target="_blank" >中国白酒</a> </h4>
+              <p> <a href="#" target="_blank" >茅台</a> <a  href="#" target="_blank" >五粮液</a> <a  href="#" target="_blank" >洋河</a> <a  href="#" target="_blank" >郎酒</a> </p>
+            </dt>
+            <dd  class="h320">
+              <ul class="subcates">
+                <li>
+                  <h5>香型</h5>
+                  <p> <a href="#" target="_blank" >浓香型</a> <a href="#" target="_blank" >酱香型</a> <a href="#" target="_blank" >清香型</a> <br>
+                    <a href="#" target="_blank" >凤香型</a> <a href="#" target="_blank" >绵柔型</a> <a href="#" target="_blank" >米香型</a> <br>
+                    <a href="#" target="_blank" >兼香型</a> <a href="#" target="_blank" >其他香型</a> </p>
+                </li>
+                <li>
+                  <h5>产地</h5>
+                  <p> <a href="#" target="_blank" >贵州</a> <a href="#" target="_blank" >四川</a> <a href="#" target="_blank" >山西</a> <a href="#" target="_blank" >北京</a> <br>
+                    <a href="#" target="_blank" >江苏</a> <a href="#" target="_blank" >安徽</a> <br>
+                    <a href="#" target="_blank" >新疆</a> <a href="#" target="_blank" >其他产地</a> </p>
+                </li>
+                <li>
+                  <h5>价格</h5>
+                  <p> <a href="#" target="_blank" >1-49</a> <a href="#" target="_blank" >50-99</a> <a href="#" target="_blank" >100-199</a> <br>
+                    <a href="#" target="_blank" >200-299</a> <a href="#" target="_blank" >300-499</a> <a href="#" target="_blank" >500-999</a> <br>
+                    <a href="#" target="_blank" >1000以上</a> </p>
+                </li>
+              </ul>
+              <ul class="relcates">
+                <li>
+                  <h5>品牌</h5>
+                  <p> <a href="#" target="_blank" >茅台</a> <a href="#" target="_blank" >五粮液</a> <a href="#" target="_blank" >泸州老窖</a> <br>
+                    <a href="#" target="_blank" >剑南春</a> <a href="#" target="_blank" >洋河</a> <a href="#" target="_blank" >口子窖</a> <br>
+                    <a href="#" target="_blank" >汾酒</a> <a href="#" target="_blank" >国窖</a> <a href="#" target="_blank" >水井坊</a> <br>
+                    <a href="#" target="_blank" >西凤</a> <a href="#" target="_blank" >牛栏山</a> <a href="#" target="_blank" >金六福</a> <br>
+                    <a href="#" target="_blank" >宋河</a> <a href="#" target="_blank" >杜康</a> <a href="#" target="_blank" >红星二锅头</a> <br>
+                    <a href="#" target="_blank" >古井贡</a> <a href="#" target="_blank" >迎驾贡酒</a> <a href="#" target="_blank" >红楼梦</a> <br>
+                    <a href="#" target="_blank" >丰谷</a> <a href="#" target="_blank" >国粹</a> <a href="#" target="_blank" >沱牌</a> <br>
+                    <a href="#" target="_blank" >河套</a> <a href="#" target="_blank" >董酒</a> <a href="#" target="_blank" >小糊涂仙</a> <br>
+                    <a href="#" target="_blank" >舍得</a> <a href="#" target="_blank" >习酒</a> <a href="#" target="_blank" >今世缘</a> <br>
+                    <a href="#" target="_blank" >酒鬼</a> </p>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+          <dl>
+            <dt>
+              <h4><a   target="_blank" class="topcate" href="#">酒具周边</a></h4>
+              <p> <a  target="_blank" href="#">酒杯</a> <a  class="bg"  target="_blank" href="#">酒柜</a> <a   target="_blank" href="#">酒刀</a> <a   target="_blank" href="#">醒酒器</a> 
+                <!--
+        <a href="#" target="_blank" >弓箭</a> 
+        <a href="#" target="_blank" >Riedel</a> 
+        <a href="#" target="_blank" >诗杯客乐</a> --> </p>
+            </dt>
+            <dd  style="height:185px;" class="h190">
+              <ul class="subcates">
+                <li>
+                  <h5>种类</h5>
+                  <p> <a  target="_blank" href="#">酒杯</a> <a  target="_blank" href="#">醒酒器</a> <a  target="_blank" href="#">酒刀</a> <br>
+                    <a  target="_blank" href="#">酒架</a> <a  target="_blank" href="#">酒鼻子</a> <a class="bg"  target="_blank" href="#">酒柜</a> <br>
+                    <a  target="_blank" href="#">礼盒</a> <a  target="_blank" href="#">壶</a> </p>
+                </li>
+              </ul>
+              <ul class="relcates">
+                <li>
+                  <h5>品牌</h5>
+                  <p class="lh22"> <a  target="_blank" href="#">醴铎</a> <a  target="_blank" href="#">弓箭</a> <a  target="_blank" href="#">诗杯客乐 </a> <br>
+                    <a  target="_blank" href="#">石岛</a> <a  target="_blank" href="#">梵酷</a> </p>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+          <dl class="first">
+            <dt class="last">
+              <h4><a data-dts="IL6.0" href="#" class="topcate" target="_blank" >啤酒 食品</a></h4>
+              <p> <a data-dts="IL6.1" title="限时特惠" href="#" target="_blank" >限时特惠</a> <a title="黄啤" href="#" target="_blank" > </a><a data-dts="IL6.3" title="黑啤" href="#" target="_blank" >黑啤</a> <a data-dts="IL6.4" title="也买生鲜" href="#" target="_blank" >也买生鲜</a> </p>
+            </dt>
+            <dd data-dts="ILP6" style="height:300px;">
+              <ul class="subcates">
+                <li>
+                  <h5>啤酒产地</h5>
+                  <p class="lh22"> <a title="经典热销" href="#" target="_blank" >经典热销</a> <a title="德国大牌" href="#" target="_blank" >德国大牌</a> <a title="比利时" href="#" target="_blank" >比利时</a><br>
+                    <a title="荷兰" href="#" target="_blank" >荷兰</a> <a title="中国" href="#" target="_blank" >中国</a> <a title="其它" href="#" target="_blank" >其它</a> </p>
+                </li>
+                <li>
+                  <h5>啤酒种类</h5>
+                  <p class="lh22"> <a title="黑啤" href="#" target="_blank" >黑啤</a> <a title="黄啤" href="#" target="_blank" >黄啤</a> <a title="白啤" href="#" target="_blank" >白啤</a><br>
+                    <a title="红啤" href="#" target="_blank" >红啤</a> </p>
+                </li>
+                <li>
+                  <h5>啤酒价格</h5>
+                  <p class="lh22"> <a title="1-99元" href="#" target="_blank" >1-99元</a> <a title="100-199元" href="#" target="_blank" >100-199元</a> <a title="200-299元" href="#" target="_blank" >200-299元</a><br>
+                    <a title="300-399元" href="#" target="_blank" >300-399元</a> <a title="400-499元" href="#" target="_blank" >400-499元</a> <a title="500-599元" href="#" target="_blank" >500-599元</a> </p>
+                </li>
+                <li>
+                  <h5>生鲜食品</h5>
+                  <p class="lh22"> <a title="鲜肉/肉制品" href="#" target="_blank" >鲜肉/肉制品</a> <a title="海鲜水产" href="#" target="_blank" >海鲜水产</a> <a title="水果" href="#" target="_blank" >水果</a><br>
+                    <a title="新鲜蔬菜" href="#" target="_blank" >新鲜蔬菜</a> <a title="安心乳品" href="#" target="_blank" >安心乳品</a> <a title="火腿/熟肉制品" href="#" target="_blank" >火腿/熟肉制品</a> </p>
+                </li>
+                <li>
+                  <h5>休闲零食</h5>
+                  <p class="lh22"> <a title="坚果" href="#" target="_blank" >坚果</a> <a title="进口食品" href="#" target="_blank" >进口食品</a> <a title="蜂蜜" href="#" target="_blank" >蜂蜜</a><br>
+                    <a title="精品茶" href="#" target="_blank" >精品茶</a> <a title="花茶" href="#" target="_blank" >花茶</a> <a title="咖啡" href="#" target="_blank" >咖啡</a> </p>
+                </li>
+              </ul>
+              <ul class="relcates">
+                <li>
+                  <h5>啤酒活动</h5>
+                  <p class="lh22"> <a title="特价秒杀" href="#" target="_blank" >特价秒杀</a> <a title="世界杯热销" href="#" target="_blank" >世界杯热销</a> <a title="买赠不停" href="#" target="_blank" >买赠不停</a> <a title="满百包邮" href="#" target="_blank" >满百包邮</a> <a title="1折起特惠" href="#" target="_blank" >1折起特惠</a> </p>
+                </li>
+                <li>
+                  <h5>啤酒品牌</h5>
+                  <p class="lh22"> <a title="卡力特" href="#" target="_blank" >卡力特</a> <a title="宝龙" href="#" target="_blank" >宝龙</a> <a title="凯撒" href="#" target="_blank" >凯撒</a> <a title="莱宝鲜啤" href="#" target="_blank" >莱宝鲜啤</a> <a title="威斯路" href="#" target="_blank" >威斯路</a> <a title="粉象" href="#" target="_blank" >粉象</a> <a title="林德曼" href="#" target="_blank" >林德曼</a> <a title="万德力" href="#" target="_blank" >万德力</a> <a title="马奥" href="#" target="_blank" >马奥</a> <a title="喜力" href="#" target="_blank" >喜力</a> <a title="百威" href="#" target="_blank" >百威</a> <a title="青岛" href="#" target="_blank" >青岛</a> <a title="弗伦辛格" href="#" target="_blank" >弗伦辛格</a> <a title="极乐" href="#" target="_blank" >极乐</a> <a title="更多大牌" href="#" target="_blank" >更多大牌</a> </p>
+                </li>
+                <li>
+                  <h5>食品活动</h5>
+                  <p class="lh22"> <a title="特价秒杀" href="#" target="_blank" >特价秒杀</a> <a title="满99包邮" href="#" target="_blank" >满99包邮</a> </p>
+                </li>
+                <li>
+                  <h5>热销店铺</h5>
+                  <p class="lh22"> <a title="本来生活" href="#" target="_blank" >本来生活</a> <a title="邮康进口食品" href="#" target="_blank" >邮康进口食品</a> <a title="金尚食品" href="#" target="_blank" >金尚食品</a><br>
+                    <a title="大地原生" href="#" target="_blank" >大地原生</a> <a title="乡礼香专营店" href="#" target="_blank" >乡礼香专营店</a> </p>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <div class="head-subNav">
+    	<ul class="head-subNav-ul clearfix">
+        	<li><a href="#">新品特惠</a></li>
+            <li><a href="#" ><b class="sanjiao-hui">积分商城</b></a></li>
+            <li><a href="#">品牌酒庄</a></li>
+            <li><a href="#">快也买</a></li>
+            <li><a href="#">GCC</a></li>
+            <li><a href="#">品酒会</a></li>
+            <li><a href="#"> 礼品卡</a></li>
+            <li><a href="#" class="file-ico">葡萄酒爱好者</a></li>
+            <li>
+            	<div class="hot-search">
+            		<a>热搜:</a>
+                    <a href="#">波尔多</a>
+                     <a href="#">香槟</a>
+                      <a href="#">赤霞珠</a>
+                       <a href="#">设拉子</a>
+                        <a href="#">拉菲组合</a>
+                        <a href="#">赤霞珠</a>
+                        
+            	</div>
+            </li>
+        
+        </ul>
+    </div>
+</div>
+<!--head结束-->
+<!--主内容区域-->
+<div class="warp">
+	<div class="mainCont">
+		<div class="breadcrumb">
+			<a href="#" >首页</a>
+			<span>&gt;</span>
+			<a href="#">我的帐户</a>
+			<span>&gt;</span>
+            <a href="#">设置勿扰</a>
+			
+		</div>
+        <div class="personal-center clearfix">
+        	<!--个人中心左侧-->
+        	<div class="pannl-left">
+            	<h3>我的账户</h3>
+            	<ul>
+                    <li class="left_menu_title clear_border_top clear_mt">交易管理</li>
+                    <li ><a href="#"><span>●</span>我的订单</a></li>
+                    <li><a href="#"><span>●</span>未点评商品</a></li>
+                    <li ><a href="#"><span>●</span>我的关注</a></li>
+                    <li ><a href="#"><span>●</span>我的拍卖</a></li>        
+                    <li class="left_menu_title">账户信息</li>
+                    <li><a href="#"><span>●</span>个人资料</a></li>
+                    <li style="position:relative;" >
+                        <a href="#"><span>●</span>充值账户</a>
+                        <span class="hot_menu" style=""> </span></li>
+                    <li ><a href="#"><span>●</span>我的积分</a></li>
+                    <li ><a href="#"><span>●</span>我的PASS</a></li>
+                    <li ><a href="#"><span>●</span>优惠劵</a></li>
+                    <li ><a href="#"><span>●</span>礼品卡</a></li>
+                    <li ><a href="#"><span>●</span>修改密码</a></li>
+                    
+                    <li class="left_menu_title">增值服务</li>
+                    <li ><a href="#"><span>●</span>我的礼品</a></li>
+                    <li ><a href="#"><span>●</span>我的特别优惠</a></li>
+                  
+                    <li ><a href="#"><span>●</span>我的存酒库</a></li>
+                    <li ><a href="#"><span>●</span>我的订阅</a></li>
+                    <li class="left_menu_title">我的客服</li>
+                    <li ><a href="#"><span>●</span>我的消息</a></li>
+                    <li ><a href="#"><span>●</span>我的咨询</a></li>
+                    <li ><a href="#"><span>●</span>价格举报</a></li>
+                    <li class="on"><a href="#"><span>●</span>设置勿扰</a></li>
+        
+    			</ul>
+            
+            </div>
+            <!--个人中心左侧结束-->
+            <!--个人中心右侧-->
+        	<div class="panl-main">
+            	<div class="main_title">
+          			<h2>
+          				设置勿扰
+          			</h2>          		
+          		</div>
+                <div class="set-nodisturb">
+                	<div class="disturb">
+                    	<h3 >谢绝电话销售</h3>
+                        <p>也买酒一项特色服务是通过专业的品酒师客服团队向客户主动拨打电话，为数以万计的客户推荐高性价比的产品。
+同时，我们也发现有部分会员<span class="red">不习惯接受电话推荐的形式</span>。 </p>
+						<p>如果您真的不喜欢接到我们客服团队的电话，那么请在此处注册“谢绝电话”，在这里登记您的手机号码，
+我们会立即将您的电话号码从客服团队的会员库里删除。 </p>
+                        <p>别担心，这丝毫不影响您的帐户以及您其他方式的订购，您依然可以通过网站或致电<b class="red" style="font-size:24px;">4008208060</b>                       订购你喜欢的酒品，
+并享受除呼出电话以外的所有会员服务。 </p>
+						<div class="disturb_input">
+							<label>谢绝电话销售手机号：</label>
+					<input type="text" value="" class="ml5 mr5  disturb-text"  maxlength="11">
+							<a  class="btn4">提交申请</a>
+				</div>
+                    
+                    </div>
+                    
+                    <div class="disturb">
+                    	<h3 >谢绝促销短信</h3>
+                        <p>也买酒会不定期向尊贵的会员发送相关的促销信息，为客户能第一时间了解也买酒的最新活动信息提供方便。</p>
+						<p>同时，我们也发现有部分会员不喜欢接受短信的提醒，为了能满足客户的需要，我们提供谢绝促销短信的服务。</p>
+                       
+						<div class="disturb_input">
+							<label>谢绝促销短信手机号：</label>
+					<input type="text" value="" class="ml5 mr5  disturb-text"  maxlength="11">
+							<a  class="btn4">提交申请</a>
+				</div>
+                    
+                    </div>
+                    <div class="disturb">
+                    	<h3 >谢绝促销邮件</h3>
+                        <p>也买酒会不定期向尊贵的会员发送相关的促销信息，为客户能第一时间了解也买酒的最新活动信息提供方便。</p>
+						<p>同时，我们也发现有部分会员不喜欢接受邮件的提醒，为了能满足客户的需要，我们提供谢绝促销邮件的服务。 </p>
+						<div class="disturb_input">
+							<label>谢绝促销邮件地址：</label>
+					<input type="text" value="" class="ml5 mr5  disturb-text"  maxlength="11">
+							<a  class="btn4">提交申请</a>
+				</div>
+                    
+                    </div>
+                	
+                </div>
+                
+                
+                    
+            	
+            </div>
+            <!--个人中心右侧结束-->
+        	 
+        
+        </div>
+            
+            
+         </div>
+            
+	</div>
+</div>
+
+<!--主内容区域结束-->
+<!--网站页脚-->
+<div class="footer">
+    	
+        <div class="foot-advertising"><img src="common/images/guangGao-footer.jpg" height="88"></div>
+        <div class="foot-help">
+        	<ul class="foot-ul clearfix"> 
+                <li> 
+                    <h3>购物指南</h3> 
+                    <p> 
+                      <a href="#" target="_blank">帐户注册</a> 
+                      <a href="#" target="_blank">购物流程</a> 
+                      <a href="#" target="_blank">积分制度</a> 
+                      <a href="#" target="_blank">礼品卡</a> 
+                      <a href="#" target="_blank">会员权益</a> 
+                      <a href="#" target="_blank">常见问题</a> 
+                     </p> 
+                </li> 
+                  <li> 
+                    <h3>支付方式</h3> 
+                    <p> 
+                      <a href="#" target="_blank">帐户注册</a> 
+                      <a href="#" target="_blank">购物流程</a> 
+                      <a href="#" target="_blank">积分制度</a> 
+                      <a href="#" target="_blank">礼品卡</a> 
+                      <a href="#" target="_blank">会员权益</a> 
+                      <a href="#" target="_blank">常见问题</a> 
+                     </p> 
+                </li> 
+                  <li> 
+                    <h3>配送方式</h3> 
+                    <p> 
+                      <a href="#" target="_blank">帐户注册</a> 
+                      <a href="#" target="_blank">购物流程</a> 
+                      <a href="#" target="_blank">积分制度</a> 
+                      <a href="#" target="_blank">礼品卡</a> 
+                      <a href="#" target="_blank">会员权益</a> 
+                      <a href="#" target="_blank">常见问题</a> 
+                     </p> 
+                </li> 
+                  <li> 
+                    <h3>帮助中心</h3> 
+                    <p> 
+                      <a href="#" target="_blank">帐户注册</a> 
+                      <a href="#" target="_blank">购物流程</a> 
+                      <a href="#" target="_blank">积分制度</a> 
+                      <a href="#" target="_blank">礼品卡</a> 
+                      <a href="#" target="_blank">会员权益</a> 
+                      <a href="#" target="_blank">常见问题</a> 
+                     </p> 
+                </li> 
+                  <li> 
+                    <h3>关于我们</h3> 
+                    <p> 
+                      <a href="#" target="_blank">帐户注册</a> 
+                      <a href="#" target="_blank">购物流程</a> 
+                      <a href="#" target="_blank">积分制度</a> 
+                      <a href="#" target="_blank">礼品卡</a> 
+                      <a href="#" target="_blank">会员权益</a> 
+                      <a href="#" target="_blank">常见问题</a> 
+                     </p> 
+                </li> 
+    
+   			</ul>
+        
+        </div>
+        <div class="foot-nav"> 
+ 			<a href="#" target="_blank">关于也买酒</a> 
+ 			<span class="sep">|</span> 
+ 			<a href="#" target="_blank">联系我们</a> 
+             <span class="sep">|</span> 
+             <a href="#" target="_blank">媒体聚焦</a> 
+             <span class="sep">|</span> 
+             <a href="#" target="_blank">诚招英才</a> 
+             <span class="sep">|</span> 
+             <a href="#" target="_blank">隐私声明</a> 
+             <span class="sep">|</span> 
+             <a href="#" target="_blank">评论中心</a> 
+             <span class="sep">|</span> 
+             <a href="#" target="_blank">品牌中心</a> 
+		</div>
+		<div class="foot-license"> 
+             <span class="top100">消费者最喜爱的网站TOP100</span> 
+             <span class="sep">|</span> 
+             <span class="year18">仅限18周岁以上人士购买</span> 
+             <span class="sep">|</span> 
+ 			<a target="_blank" href="#" style="color:#999999;">	
+            <span class="shzxw">网络社会征信网</span></a> 
+             <span class="sep">|</span> 
+             <span class="shgs">上海工商</span> 
+             <span class="sep">|</span> 
+             <span>京公网安备11010502013828</span> 
+		</div>
+		<div class="foot-copyright">
+  			Copyright 2006-2014 也买酒 yesmywine.com 版权所有 
+ 			<span class="sep">|</span> 
+ 			<a href="#" target="_blank" style="color:#999">沪ICP备09093441号</a> 
+ <br> 
+ 		<div class="cx">
+  		<span class="float"> 
+        	<a href="#" target="_blank"> 
+            	<img width="112" height="40" src="common/images/chengxin.png">
+            </a>
+         </span> 
+  		 <span class="float" style="margin-left:10px;display:inline">
+         	<img width="112" height="40" src="common/images/lead.jpg">
+         </span> 
+ 	 </div> 
+	</div>
+</div>
+<!--网站页脚结束-->
+</body>
+</html>
